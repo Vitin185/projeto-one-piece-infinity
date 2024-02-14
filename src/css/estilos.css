@@ -69,8 +69,9 @@ main .personagem .imagem {
 }
 
 .list{
-    padding-bottom: 65px;
+    padding-bottom: 60px;
 }
+
 .botoes {
     position: fixed;
     top: 0;
@@ -109,12 +110,9 @@ main .personagem .imagem {
     width: 300px;
 }
 
-.navigation:hover{
-    width: 300px;
-}
-
 .navigation li:hover{
     background-color: darkblue;
+    height: 60px;
 }
 
 .navigation ul{
@@ -164,6 +162,7 @@ main .personagem .imagem {
 
 button.botao.selecionado{
     background-color: aqua;
+    transition: 0.5s;
     height: 65px;
     width: 85px;
     border-radius: 50%;
